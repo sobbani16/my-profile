@@ -1,3 +1,8 @@
+Use `npm run deploy` to deply the app to the github page
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
