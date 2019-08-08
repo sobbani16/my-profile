@@ -1,0 +1,15 @@
+@import '../fonts/fonts.css';
+
+h1{
+    font-family: 'booklet-cordel';
+    color: rgb(224, 12, 12);
+    height: 100%;
+    width: 100%
+}
+
+div{
+    background: url("../images/background-image.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 20%;
+}

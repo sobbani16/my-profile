@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'candyinc';
+    src: url('candy-inc-font/CANDY___.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'candyinc-bold';
+    src: url('candy-inc-font/CANDY___.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'booklet-cordel';
+    src: url('booklet-cordel/Booklet Cordel.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'booklet-cordel-bold';
+    src: url('booklet-cordel/Booklet Cordel.ttf') format('truetype');
+    font-weight: bold;
+}
