@@ -62,7 +62,7 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "cross-env NODE_ENV=production webpack --config build/webpack.config.js",
+    "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
@@ -84,7 +84,8 @@
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
-    "gh-pages": "2.0.1"
+    "gh-pages": "2.0.1",
+    "webpack-cli": "^3.3.6"
   },
   "jest": {
     "collectCoverageFrom": [
