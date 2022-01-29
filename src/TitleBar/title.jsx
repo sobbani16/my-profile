@@ -1,6 +1,6 @@
 import React from 'react';
 import './title.css';
-import Button from '../../node_modules/react-bootstrap/Button';
+import Button from 'react-bootstrap/Button';
 
 const titleImageStyle = {
     height: '50%',
@@ -15,11 +15,9 @@ export default class Title extends React.Component {
     render() {
         return (
             <div>
-                <p font-family="candyinc">Hi, this is</p>
-                
-
+                <p fontFamily="candyinc">Hi, this is</p>
                 <img style = {titleImageStyle} src={require('./prashanth.png')} alt="title" className="author-name" />
-                <Button style = {titleButtonStyle} bsStyle="primary" bsSize="large" block>Click Here !!!</Button>
+                <Button style = {titleButtonStyle} block>Click Here !!!</Button>
             </div>
         )
     }

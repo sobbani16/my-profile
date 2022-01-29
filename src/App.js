@@ -1,11 +1,12 @@
-import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-import Title from './TitleBar/title'
 
 function App() {
   return (
     <div className="App">
-      <Title/>
+      <header className="App-header">
+        <div>Prashanth Sobbani</div>
+      </header>
     </div>
   );
 }
